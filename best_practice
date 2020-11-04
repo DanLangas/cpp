@@ -1,0 +1,14 @@
+Best practice
+
+Prefer ‘\n’ over std::endl when outputting text to the console.
+Warning
+
+‘\n’ uses a backslash (as do all special characters in C++), not a forward slash. Using a forward slash (e.g. ‘/n’) instead may result in unexpected behavior.
+
+
+Best practice
+
+There’s some debate over whether it’s necessary to initialize a variable immediately before you give it a user provided value via another source (e.g. std::cin), since the user-provided value will just overwrite the initialization value. In line with our previous recommendation that variables should always be initialized, best practice is to initialize the variable first.
+
+
+The C++ io library does not provide a way to accept keyboard input without the user having to press enter. If this is something you desire, you’ll have to use a third party library. For console applications, we’d recommend the pdcurses library. Many graphical user libraries have their own functions to do this kind of thing.

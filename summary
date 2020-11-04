@@ -1,0 +1,39 @@
+Summary
+
+New programmers often mix up std::cin, std::cout, the insertion operator (<<) and the extraction operator (>>). Here’s an easy way to remember:
+
+std::cin and std::cout always go on the left-hand side of the statement.
+std::cout is used to output a value (cout = character output)
+std::cin is used to get an input value (cin = character input)
+<< is used with std::cout, and shows the direction that data is moving (if std::cout represents the console, the output data is moving from the variable to the console). std::cout << 4 moves the value of 4 to the console
+>> is used with std::cin, and shows the direction that data is moving (if std::cin represents the keyboard, the input data is moving from the keyboard to the variable). std::cin >> x moves the value the user entered from the keyboard into x
+
+
+Initialization = The object is given a known value at the point of definition.
+Assignment = The object is given a known value beyond the point of definition.
+Uninitialized = The object has not been given a known value yet.
+
+
+
+Undefined behavior
+
+Using the value from an uninitialized variable is our first example of undefined behavior. Undefined behavior is the result of executing code whose behavior is not well defined by the C++ language. In this case, the C++ language doesn’t have any rules determining what happens if you use the value of a variable that has not been given a known value. Consequently, if you actually do this, undefined behavior will result.
+
+Code implementing undefined behavior may exhibit any of the following symptoms:
+
+Your program produces different results every time it is run.
+Your program consistently produces the same incorrect result.
+Your program behaves inconsistently (sometimes produces the correct result, sometimes not).
+Your program seems like its working but produces incorrect results later in the program.
+Your program crashes, either immediately or later.
+Your program works on some compilers but not others.
+Your program works until you change some other seemingly unrelated code.
+Or, your code may actually produce the correct behavior anyway. The nature of undefined behavior is that you never quite know what you’re going to get, whether you’ll get it every time, and whether that behavior will change when you make other changes.
+
+C++ contains many cases that can result in undefined behavior if you’re not careful. We’ll point these out in future lessons whenever we encounter them. Take note of where these cases are and make sure you avoid them.
+
+Rule
+
+Take care to avoid all situations that result in undefined behavior, such as using uninitialized variables.
+
+

@@ -117,3 +117,72 @@ Hide Solution
 Direct brace initialization.
 
 
+
+Quiz time
+
+Question #1
+
+Consider the following program that we used above:
+
+#include <iostream>  // for std::cout and std::cin
+ 
+int main()
+{
+    std::cout << "Enter a number: "; // ask user for a number
+    int x{}; // define variable x to hold user input
+    std::cin >> x; // get number from keyboard and store it in variable x
+    std::cout << "You entered " << x << '\n';
+    return 0;
+}
+
+The program expects you to enter an integer value, as the variable x that the user input will be put into is an integer variable.
+
+Run this program multiple times and describe what happens when you enter the following types of input instead:
+
+a) A letter, such as h
+
+Hide Solution
+
+x is 0.
+b) A number with a fractional component. Try numbers with fractional components less than 0.5 and greater than 0.5 (e.g. 3.2 and 3.7).
+
+Hide Solution
+
+The fractional component is dropped.
+c) A small negative integer, such as -3
+
+Hide Solution
+
+This works fine.
+d) A word, such as Hello
+
+Hide Solution
+
+x is 0.
+e) A really big number (at least 3 billion)
+
+Hide Solution
+
+You get a seemingly random number.
+The last suggestion may be particularly surprising. Try it! This happens because x can only hold numbers up to a certain size. After that, it "overflows". We'll discuss overflow in a future lesson.
+
+
+
+Quiz time
+
+Question #1
+
+What is an uninitialized variable? Why should you avoid using them?
+
+Hide Solution
+
+An uninitialized variable is a variable that has not been given a value by the program (generally through initialization or assignment). Using the value stored in an uninitialized variable will result in undefined behavior.
+Question #2
+
+What is undefined behavior, and what can happen if you do something that exhibits undefined behavior?
+
+Hide Solution
+
+Undefined behavior is the result of executing code whose behavior is not well defined by the language. The result can be almost anything, including something that behaves correctly.
+
+
