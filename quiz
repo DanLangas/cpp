@@ -1,0 +1,119 @@
+Quiz time
+
+The following quiz is meant to reinforce your understanding of the material presented above.
+
+Question #1
+
+What is a statement?
+
+Hide Solution
+
+A statement is an instruction in a computer program that tells the computer to perform an action.
+Question #2
+
+What is a function?
+
+Hide Solution
+
+A function is a collection of statements that executes sequentially.
+Question #3
+
+What is the name of the function that all programs must have?
+
+Hide Solution
+
+main
+Question #4
+
+When a program is run, where does execution start?
+
+Hide Solution
+
+Execution starts with the first statement inside the main function.
+Question #5
+
+What symbol are statements in C++ often ended with?
+
+Hide Solution
+
+The semicolon (;)
+Question #6
+
+What is a syntax error?
+
+Hide Solution
+
+A syntax error is a compiler error that occurs at compile-time when your program violates the grammar rules of the C++ language.
+Question #7
+
+What is the C++ Standard Library?
+
+
+Review lesson 0.5 -- Introduction to the compiler, linker, and libraries
+Hide Solution
+
+A library file is a collection of precompiled code that has been “packaged up” for reuse in other programs. The C++ Standard Library is a library that ships with C++. It contains additional functionality to use in your programs.
+
+Quiz time
+
+Question #1
+
+What is data?
+
+Hide Solution
+
+Data is any sequence of symbols (numbers, letters, etc…) that can be interpreted to mean something.
+Question #2
+
+What is a value?
+
+Hide Solution
+
+A value is a single piece of data stored in memory.
+Question #3
+
+What is a variable?
+
+Hide Solution
+
+A variable is a named region of memory.
+Question #4
+
+What is an identifier?
+
+Hide Solution
+
+An identifier is the name that a variable is accessed by.
+Question #5
+
+What is a type?
+
+Hide Solution
+
+A type tells the program how to interpret a value in memory.
+Question #6
+
+What is an integer?
+
+Hide Solution
+
+An integer is a number that can be written without a fractional component.
+
+Quiz time
+
+Question #1
+
+What is the difference between initialization and assignment?
+
+Hide Solution
+
+Initialization gives a variable an initial value at the point when it is created. Assignment gives a variable a value at some point after the variable is created.
+Question #2
+
+What form of initialization should you be using (assume your compiler is C++11 compliant)?
+
+Hide Solution
+
+Direct brace initialization.
+
+
