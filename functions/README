@@ -1,0 +1,16 @@
+A function is a reusable sequence of statements designed to do a particular job.
+Functions that you write yourself are called user-defined functions.
+A function call is an expression that tells the CPU to interrupt the current function and execute another function. 
+The CPU “puts a bookmark” at the current point of execution, and then calls (executes) the function named in the function call.
+When the called function ends, the CPU returns back to the point it bookmarked, and resumes execution.
+
+The function initiating the function call is called the caller, and the function being called is the callee or called function.
+
+
+return-type identifier() // identifier replaced with the name of your function
+{
+// Your code here
+}
+
+For now, identifier will simply be replaced with the name of your user-defined function.
+The curly braces and statements in between are called the function body.
