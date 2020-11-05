@@ -186,3 +186,41 @@ Hide Solution
 Undefined behavior is the result of executing code whose behavior is not well defined by the language. The result can be almost anything, including something that behaves correctly.
 
 
+
+Based on how you should name a variable, indicate whether each variable name is correct (follows convention), incorrect (does not follow convention), or invalid (will not compile), and why.
+int sum; // assume it’s obvious what we’re summing
+Hide Solution
+
+Correct.
+int _apples;
+Hide Solution
+
+Incorrect -- variable names should not start with an underscore.
+int VALUE;
+Hide Solution
+
+Incorrect -- variable names should start with a lower case letter.
+int my variable name;
+Hide Solution
+
+Invalid -- variable names can not contain spaces.
+int TotalCustomers;
+Hide Solution
+
+Incorrect -- variable names should start with a lower case letter.
+int void;
+Hide Solution
+
+Invalid -- void is a keyword.
+int numFruit;
+Hide Solution
+
+Correct.
+int 3some;
+Hide Solution
+
+Invalid -- variable names can not start with a number.
+int meters_of_pipe;
+Hide Solution
+
+Correct.
