@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1607764473 source:d:\proiecte\cpp_oop\curs_2_1\main.cpp
+	<iostream>
+	"Produs.h"
+	<fstream>
+
+1607762767 source:d:\proiecte\cpp_oop\curs_2_1\produs.cpp
+	<iostream>
+	"Produs.h"
+	<string.h>
+
+1607762755 d:\proiecte\cpp_oop\curs_2_1\produs.h
+
